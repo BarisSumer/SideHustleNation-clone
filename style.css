@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+div{
+    margin: 0;
+}
+
+body{
+    font-size: 10px;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 0rem;
+}
+
+a{
+    color:white;
+}
+
+nav{
+    width: 100%;
+    height: 13rem;
+    justify-content: space-around;
+}
+
+nav ul li{
+    font-size: 1.7rem;
+    padding-right: 2rem;
+    font-weight: 700;
+}
+
+nav ul li:hover{
+   cursor: pointer;
+}
+
+nav ul{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 350px;
+    height: 159px;
+}
+
+nav img:hover{
+    cursor: pointer;
+}
+
+
+#section1 img{
+    width: 100%;
+    height: auto;
+ 
+}
+
+.relative-position{
+    position: relative;
+}
+
+
+.text-main{
+    position: absolute;
+    top:30%;
+    left:65%;
+    text-align: end;
+    color: white;
+    font-weight: 700;
+}
+
+
+.text-main ul li{
+   
+    font-size: 5rem;
+ }
+
+
+ #section1 button{
+     position: absolute;
+     top:73%;
+     left:68%;
+     font-size: 1.5rem;
+     color:white;
+     background-color: #71AD48;
+     padding: 0.7rem 2.3rem;
+     border: 1px solid #71AD48;
+     cursor: pointer;
+ }
+
+
+ #section2 h1{
+     margin-top: 3rem;
+     text-align: center;
+ }
+
+
+ .div1{
+     width: 23rem;
+     text-align: center;
+     margin-top: 4rem;
+     margin-left: 2rem;
+     margin-right: 2rem;
+ }
+ 
+
+ .flex-center{
+     display: flex;
+     justify-content: center;
+ }
+
+ .div1 i{
+     color:#71AD48;
+     margin-bottom: 2rem;
+ }
+
+ .div1 i:hover{
+    color:orange;
+    cursor: pointer;
+}
+
+
+ .div1 p{
+     font-size: 1.2rem;
+ }
+
+ .div1 h3{
+     margin-bottom: 2rem;
+ }
+
+
+ #section2 .p1 p{
+     text-align: center;
+     font-size: 1.5rem;
+     margin-top: 3rem;
+ }
+
+
+ #section2 button{
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     margin-top: 4rem;
+     font-size: 1.5rem;
+     padding: 0.7rem 2rem;
+     cursor: pointer;
+     background-color: #71AD48;
+     border: 1px solid #71AD48;
+ }
+
+
+ #section2 img{
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     margin-top: 5rem;
+     padding-bottom: 4rem;
+ }
+
+
+ #section3 img{
+     width: 100%;
+     height: auto;
+ }
+
+ #section3 h1{
+   text-align: center;
+   padding-top: 3rem;
+}
+
+#section3 p{
+    font-size: 1.3rem;
+    padding: 1rem;
+    
+}
+
+
+.absolute-div{
+    position: absolute;
+    top: 8%;
+    left: 17%;
+    width: 42rem;
+    height: 32rem;
+    background-color: #F2F2F2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+#section4 p{
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+
+.writer{
+    font-size: 1rem;
+    padding-bottom: 4rem;
+}
+
+
+.text-section4{
+    padding-top: 4rem;
+}
+
+
+
+#section5 img{
+    width: 100%;
+    height: auto;
+}
+
+.absolute-div2{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 40rem;
+    height: 20rem;
+}
+
+
+#section5 h2{
+    font-size: 3rem;
+}
+
+
+#section5 ul li{
+    font-size: 2rem;
+    padding-left: 5rem;
+}
+
+
+#section5 span{
+    color:#71AD48;
+    cursor: pointer;
+}
+
+
+#section6 h2{
+    text-align: center;
+
+}
+
+#section6 form{
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+#section6 form input,button{
+   font-size: 1.5rem;
+}
+
+
+#section6 form input{
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+#section6 form button{
+    text-align: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    color: white;
+    background-color: #71AD48;
+    border: 1px solid #71AD48;
+    cursor: pointer;
+    
+}
+
+
+#section6 .site{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+#section7{
+    background-color: #AEAEAE;
+    margin-top: 4rem;
+    height: 23rem;
+}
+
+
+#section7 h2,h4{
+    text-align: center;
+    color:white;
+}
+
+
+
+#section7 h4{
+    padding-top: 6rem;
+    margin-bottom: 1.5rem;
+}
+
+
+#section7 button{
+    padding: 0.5rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
+    border: 1px solid #71AD48;
+    background-color: #71AD48;
+    color:white;
+    
+}
+
+
+#section7 button:hover{
+    cursor: pointer;
+}
+
+
+
+#section8 h2{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+#section8 ul li{
+    font-size: 5rem;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+
+
+#section8 img{
+    margin: 4rem;
+}
+
+
+footer .top-div{
+    background-color: #70AD47;
+    margin:0;
+}
+
+
+
+
+.top-div ul li{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.top-div ul li a{
+    color:white;
+    text-decoration: none;
+   
+}
+
+
+.bottom-div{
+    background-color: #000000;
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+
+.left-div{
+    color:white;
+    font-size: 1rem;
+}
+
+
+.right-div{
+    font-size: 1rem;
+}
+
+.right-div ul li{
+    margin-right: 0.5rem;
+    
+}
+
+.right-div ul li a:hover{
+    color:grey;
+    text-decoration: none;
+}
+
+
+
+/*  responsive tasarım kaldı */
+
+
+
+
+
